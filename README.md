@@ -2,7 +2,7 @@
 
 ![Project Icon](icon.png)
 
-This project is part of my internship at Prodigy InfoTech. It implements an image encryption and decryption tool using a basic XOR cipher algorithm in Python.
+This project is part of my internship at Prodigy InfoTech. It implements an image encryption and decryption tool using a basic XOR cipher algorithm in Python. The tool allows users to encrypt and decrypt images using a simple and easy-to-understand method.
 
 ## Table of Contents
 1. [Features](#features)
@@ -20,7 +20,7 @@ This project is part of my internship at Prodigy InfoTech. It implements an imag
 
 - Encrypt an image using a basic XOR cipher algorithm
 - Decrypt an image using the same XOR cipher algorithm
-- User can specify the encryption/decryption key
+- Specify the encryption/decryption key
 
 ## Installation
 
@@ -58,15 +58,17 @@ Image encrypted and saved as path/to/encrypted_image.png
 ```
 ## How it Works
 
-The image encryption tool uses a basic XOR cipher algorithm to encrypt and decrypt images. The XOR cipher works by performing a bitwise XOR operation between the image data and the specified key. The same key is used for both encryption and decryption.
+The image encryption tool uses a basic XOR cipher algorithm to encrypt and decrypt images. The XOR cipher works by performing a bitwise XOR operation between the image data and the specified key. The same key is used for both encryption and decryption, making it a simple yet effective method for securing images.
 
 ## Output Examples
 
 ### Encrypting an Image
 
-1. Original Image
+1. **Original Image**
+2. 
    This is the original image before any encryption is applied.
    ![Original Image](image.png)
+   
 ```bash
 Do you want to (e)ncrypt or (d)ecrypt an image? Enter 'q' to quit: e
 Enter the path of the image: path/to/image.jpg
@@ -75,26 +77,26 @@ Enter the encryption/decryption key (an integer): 123
 Image encrypted and saved as path/to/encrypted_image.png
 ```
 
-2. Encrypted Image
+2.**Encrypted Image**
+
    This is the image after it has been encrypted using the XOR cipher algorithm with the specified key.
    ![Encrypted Image](encrypted_img.png)
    
 ### Decrypting an Image
 
-1. Encrypted Image
+1. **Encrypted Image**
    This is the encrypted image that will be decrypted using the same key that was used for encryption.
     ![Encrypted Image](encrypted_img.png)
+   
 ```bash
-
 Do you want to (e)ncrypt or (d)ecrypt an image? Enter 'q' to quit: d
 Enter the path of the image: path/to/encrypted_image.jpg
 Enter the path for the decrypted image: path/to/decrypted_image.png
 Enter the encryption/decryption key (an integer): 123
 Image decrypted and saved as path/to/decrypted_image.png
-
 ```
 
-2. Decrypted Image
+2. **Decrypted Image**
    This is the image after it has been decrypted, restoring it to its original form.
    ![Decrypted Image](decrypted_img.png)
    
