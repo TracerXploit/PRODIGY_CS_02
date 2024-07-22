@@ -52,9 +52,9 @@ Welcome to the Image Encryption/Decryption Tool!
 Created by MIHIR SATHVARA!
 Would you like to encrypt or decrypt the image? (enter 'encrypt' or 'decrypt', or 'exit' to quit): encrypt
 Enter the path of the image: path/to/image.jpg
-Enter the path for the encrypted image: path/to/encrypted_image.jpg
+Enter the path for the encrypted image: path/to/encrypted_image.png
 Enter the encryption/decryption key (an integer): 123
-Image encrypted and saved as path/to/encrypted_image.jpg
+Image encrypted and saved as path/to/encrypted_image.png
 ```
 ## How it Works
 
@@ -67,9 +67,9 @@ The image encryption tool uses a basic XOR cipher algorithm to encrypt and decry
 ```bash
 Do you want to (e)ncrypt or (d)ecrypt an image? Enter 'q' to quit: e
 Enter the path of the image: path/to/image.jpg
-Enter the path for the encrypted image: path/to/encrypted_image.jpg
+Enter the path for the encrypted image: path/to/encrypted_image.png
 Enter the encryption/decryption key (an integer): 123
-Image encrypted and saved as path/to/encrypted_image.jpg
+Image encrypted and saved as path/to/encrypted_image.png
 ```
 
 ### Decrypting an Image
@@ -78,9 +78,9 @@ Image encrypted and saved as path/to/encrypted_image.jpg
 
 Do you want to (e)ncrypt or (d)ecrypt an image? Enter 'q' to quit: d
 Enter the path of the image: path/to/encrypted_image.jpg
-Enter the path for the decrypted image: path/to/decrypted_image.jpg
+Enter the path for the decrypted image: path/to/decrypted_image.png
 Enter the encryption/decryption key (an integer): 123
-Image decrypted and saved as path/to/decrypted_image.jpg
+Image decrypted and saved as path/to/decrypted_image.png
 
 ```
 ## Contributing
