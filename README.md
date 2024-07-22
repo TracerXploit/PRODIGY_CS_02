@@ -64,6 +64,9 @@ The image encryption tool uses a basic XOR cipher algorithm to encrypt and decry
 
 ### Encrypting an Image
 
+1. Original Image
+   This is the original image before any encryption is applied.
+   ![Original Image](image.png)
 ```bash
 Do you want to (e)ncrypt or (d)ecrypt an image? Enter 'q' to quit: e
 Enter the path of the image: path/to/image.jpg
@@ -72,8 +75,15 @@ Enter the encryption/decryption key (an integer): 123
 Image encrypted and saved as path/to/encrypted_image.png
 ```
 
+2. Encrypted Image
+   This is the image after it has been encrypted using the XOR cipher algorithm with the specified key.
+   ![Encrypted Image](encrypted_img.png)
+   
 ### Decrypting an Image
 
+1. Encrypted Image
+   This is the encrypted image that will be decrypted using the same key that was used for encryption.
+    ![Encrypted Image](encrypted_img.png)
 ```bash
 
 Do you want to (e)ncrypt or (d)ecrypt an image? Enter 'q' to quit: d
@@ -83,6 +93,11 @@ Enter the encryption/decryption key (an integer): 123
 Image decrypted and saved as path/to/decrypted_image.png
 
 ```
+
+2. Decrypted Image
+   This is the image after it has been decrypted, restoring it to its original form.
+   ![Decrypted Image](decrypted_img.png)
+   
 ## Contributing
 
 If you have suggestions for improvements or find any bugs, feel free to open an issue or submit a pull request.
