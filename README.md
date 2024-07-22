@@ -65,7 +65,7 @@ The image encryption tool uses a basic XOR cipher algorithm to encrypt and decry
 ### Encrypting an Image
 
 1. **Original Image**
-2. 
+   
    This is the original image before any encryption is applied.
    ![Original Image](image.png)
    
@@ -85,6 +85,7 @@ Image encrypted and saved as path/to/encrypted_image.png
 ### Decrypting an Image
 
 1. **Encrypted Image**
+   
    This is the encrypted image that will be decrypted using the same key that was used for encryption.
     ![Encrypted Image](encrypted_img.png)
    
@@ -97,6 +98,7 @@ Image decrypted and saved as path/to/decrypted_image.png
 ```
 
 2. **Decrypted Image**
+   
    This is the image after it has been decrypted, restoring it to its original form.
    ![Decrypted Image](decrypted_img.png)
    
